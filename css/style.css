@@ -31,9 +31,22 @@ body {
  	line-height: 1.7; /* line-height is unit-less */
  	font-size: 100%;
 }
+
+.alignleft {
+	margin: 0 0 0 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 15px 15px;
+}
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
+.circle {
+	border-radius: 50% 50% 50% 50%;  
+}
+
 #container{
 	width: 1010px;
 	margin: 0 auto 0 auto;
