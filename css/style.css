@@ -42,12 +42,9 @@ body {
 }
 
 .tagline {
-	margin-top: -30px;
+	margin-top: -20px;
 }
 
-.fade {
-	color: grey;
-}
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
@@ -73,12 +70,12 @@ body {
 	text-align: left;
 	width: 350px;
 	float: left;
-	padding: 50px
+	padding: 50px;
+	margin-top: 0;
+
 }
 
-#space{
-	margin: 10px;
-}
+
 
 a {
 	color: red;
@@ -102,3 +99,16 @@ blockquote {
 	border-left: #BBB solid;
 }
 
+/*----------------------------------------------------------------------------- 
+04=NAVIGATION  
+-----------------------------------------------------------------------------*/
+nav ul li{
+	float: left;
+}
+
+nav ul li a {
+	background: blue;
+	margin: 16px;
+	padding: 16px;
+	display: block;
+}
